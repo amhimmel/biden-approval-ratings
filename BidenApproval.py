@@ -2,7 +2,7 @@ Approval = [0.55, 0.48, 0.63, 0.56, 0.48, 0.48]
 Disapproval = [0.32, 0.45, 0.37, 0.34, 0.47, 0.47]
 Date = [2, 3, 3, 4, 5, 6]
 Quality = [0.5, 0.8, 1.0, 1.0, 0.8, 0.8] #TODO: Put together an actual database of pollsters in the program to be able to reference instead of having to hardcode this in.
-PollsterID = [1, 2, 3, 4, 2, 2] #TODO: Do something with this to discount earlier polls from the same pollster.
+PollsterID = [1, 2, 3, 4, 2, 2]
 
 def Average(day):
     AppSum = 0
